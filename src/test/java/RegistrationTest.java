@@ -1,13 +1,8 @@
 import extensions.DriverFactory;
 import pages.*;
 import org.junit.*;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import io.qameta.allure.Description;
 import org.openqa.selenium.WebDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.time.Duration;
