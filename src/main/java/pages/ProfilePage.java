@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class ProfilePage {
     WebDriver driver;
-    private final String url = "https://stellarburgers.nomoreparties.site/account/profile";
+    public static final String URL = "https://stellarburgers.nomoreparties.site/account/profile";
     // локатор для ссылки 'Профиль'
     private final By profileLink = By.linkText("Профиль");
     // локатор для кнопки 'Выход'
@@ -21,7 +21,7 @@ public class ProfilePage {
     }
 
     public String getUrl() {
-        return url;
+        return URL;
     }
 
     public void waitProfileLink() {

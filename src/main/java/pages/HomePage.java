@@ -9,7 +9,7 @@ import java.time.Duration;
 public class HomePage {
     WebDriver driver;
     // локатор кнопки "Войти в аккаунт"
-    private final String url = "https://stellarburgers.nomoreparties.site/";
+    public static final String URL = "https://stellarburgers.nomoreparties.site/";
     // локатор для кнопки 'Войти в аккаунт'
     private final By signInButton = By.xpath(".//button[text()='Войти в аккаунт']");
     // локатор для кнопки 'Оформить заказ'
@@ -32,7 +32,7 @@ public class HomePage {
     }
 
     public String getUrl() {
-        return url;
+        return URL;
     }
 
     public void waitSignIn() {

@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class ForgotPasswordPage {
     WebDriver driver;
-    public final String url = "https://stellarburgers.nomoreparties.site/forgot-password";
+    public static final String URL = "https://stellarburgers.nomoreparties.site/forgot-password";
     // локатор для кнопки 'Восстановить'
     public final By restorePasswordButton = By.xpath(".//button[text()='Восстановить']");
     // локатор для ссылки 'Войти'
@@ -19,7 +19,7 @@ public class ForgotPasswordPage {
     }
 
     public String getUrl() {
-        return url;
+        return URL;
     }
 
     public void waitRestorePasswordButton() {

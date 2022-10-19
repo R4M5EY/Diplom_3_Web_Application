@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class RegistrationPage {
     WebDriver driver;
-    private final String url = "https://stellarburgers.nomoreparties.site/register";
+    public static final String URL = "https://stellarburgers.nomoreparties.site/register";
     // локатор для кнопки 'Зарегистрироваться'
     private final By regButton = By.xpath(".//button[text()='Зарегистрироваться']");
     // локатор для поля 'Имя'
@@ -26,7 +26,7 @@ public class RegistrationPage {
         this.driver = driver;
     }
     public String getUrl() {
-        return url;
+        return URL;
     }
 
     public void waitRegButton() {

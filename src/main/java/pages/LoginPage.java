@@ -8,7 +8,7 @@ import java.time.Duration;
 
 public class LoginPage {
     WebDriver driver;
-    private final String url = "https://stellarburgers.nomoreparties.site/login";
+    public static final String URL = "https://stellarburgers.nomoreparties.site/login";
     // локатор для кнопки 'Войти'
     public final By signInButton = By.xpath(".//button[text()='Войти']");
     // локатор для поля 'Email'
@@ -21,7 +21,7 @@ public class LoginPage {
     }
 
     public String getUrl() {
-        return url;
+        return URL;
     }
     public void waitSignInButton() {
         new WebDriverWait(driver, Duration.ofSeconds(3))
