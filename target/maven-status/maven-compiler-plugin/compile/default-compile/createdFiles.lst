@@ -1,0 +1,6 @@
+pages\RegistrationPage.class
+extensions\DriverFactory.class
+pages\ForgotPasswordPage.class
+pages\LoginPage.class
+pages\ProfilePage.class
+pages\HomePage.class
