@@ -38,3 +38,8 @@
 - «Булки»,
 - «Соусы»,
 - «Начинки».
+
+## Запуск
+
+- Google Chrome: mvn clean test -Dbrowser=chrome
+- Yandex Browser: mvn clean test -Dbrowser=yandex
